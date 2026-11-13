@@ -1,0 +1,496 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>鸚鵡打排球隱私權政策</title>
+<style>
+  :root {
+    --bg: #faf6ec;
+    --surface: #ffffff;
+    --surface-2: #f3ecda;
+    --text: #2a241c;
+    --muted: #7a7264;
+    --accent: #2f8fc4;
+    --accent-warm: #c98a00;
+    --border: #e8e0cc;
+    --shadow: 0 1px 2px rgba(42, 36, 28, 0.06), 0 8px 24px rgba(42, 36, 28, 0.06);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #16130f;
+      --surface: #1f1a13;
+      --surface-2: #2a2318;
+      --text: #f1ead9;
+      --muted: #ab9f89;
+      --accent: #78cdfb;
+      --accent-warm: #ffcf5c;
+      --border: #372f21;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #16130f;
+    --surface: #1f1a13;
+    --surface-2: #2a2318;
+    --text: #f1ead9;
+    --muted: #ab9f89;
+    --accent: #78cdfb;
+    --accent-warm: #ffcf5c;
+    --border: #372f21;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", -apple-system,
+      BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 5rem;
+  }
+
+  header.masthead {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .mark {
+    flex: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent), var(--accent-warm));
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    box-shadow: var(--shadow);
+  }
+
+  .masthead-text .app-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+  }
+
+  .masthead-text .dev-name {
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+
+  h1 {
+    font-size: clamp(1.7rem, 1.4rem + 1.2vw, 2.3rem);
+    font-weight: 900;
+    line-height: 1.25;
+    margin: 0.3rem 0 0.6rem;
+    text-wrap: balance;
+  }
+
+  .meta {
+    color: var(--muted);
+    font-size: 0.9rem;
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 2.2rem;
+  }
+
+  .identity {
+    font-size: 0.92rem;
+    color: var(--text);
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.9rem 1.2rem;
+    margin-bottom: 1.6rem;
+    display: grid;
+    gap: 0.35rem;
+  }
+
+  .identity dt {
+    display: inline;
+    font-weight: 700;
+    color: var(--muted);
+  }
+
+  .identity dd {
+    display: inline;
+    margin: 0;
+  }
+
+  .lede {
+    font-size: 1.05rem;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.2rem 1.4rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 2.4rem;
+  }
+
+  .lede p + p {
+    margin-top: 0.6rem;
+  }
+
+  nav.toc {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.1rem 1.4rem;
+    margin-bottom: 3rem;
+  }
+
+  nav.toc .toc-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.7rem;
+    display: block;
+  }
+
+  nav.toc ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 0.45rem;
+  }
+
+  nav.toc a {
+    color: var(--text);
+    text-decoration: none;
+    display: flex;
+    gap: 0.6rem;
+    font-size: 0.94rem;
+  }
+
+  nav.toc a:hover {
+    color: var(--accent);
+  }
+
+  nav.toc .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    flex: none;
+    width: 1.4rem;
+  }
+
+  section {
+    margin-bottom: 2.6rem;
+    scroll-margin-top: 1.5rem;
+  }
+
+  section h2 {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 0 0 0.9rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  section h2 .num {
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  section p {
+    margin: 0 0 0.9rem;
+    color: var(--text);
+  }
+
+  section ul {
+    margin: 0 0 0.9rem;
+    padding-left: 1.3rem;
+    display: grid;
+    gap: 0.5rem;
+  }
+
+  section li {
+    padding-left: 0.1rem;
+  }
+
+  .data-table {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+    min-width: 480px;
+  }
+
+  thead th {
+    text-align: left;
+    background: var(--surface-2);
+    color: var(--muted);
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+    padding: 0.7rem 0.9rem;
+  }
+
+  tbody td {
+    padding: 0.8rem 0.9rem;
+    border-top: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(odd) {
+    background: var(--surface);
+  }
+
+  tbody tr:nth-child(even) {
+    background: color-mix(in srgb, var(--surface) 96%, var(--surface-2));
+  }
+
+  .pill {
+    display: inline-block;
+    font-size: 0.76rem;
+    font-weight: 700;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--accent) 16%, transparent);
+    color: var(--accent);
+    white-space: nowrap;
+  }
+
+  a {
+    color: var(--accent);
+  }
+
+  a:focus-visible,
+  nav.toc a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+
+  footer .contact {
+    color: var(--text);
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+
+  @media (max-width: 480px) {
+    .page {
+      padding: 2.2rem 1.1rem 4rem;
+    }
+  }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <div class="mark" aria-hidden="true">🦜</div>
+    <div class="masthead-text">
+      <div class="app-name">鸚鵡打排球 · 虎皮鸚鵡沙灘排球</div>
+      <div class="dev-name">開發人員/發布者:ReadyOrNot</div>
+    </div>
+  </header>
+
+  <h1>隱私權政策</h1>
+  <p class="meta">生效日期:2026 年 9 月 30 日</p>
+
+  <dl class="identity">
+    <div><dt>應用程式名稱:</dt> <dd>鸚鵡打排球(英文/套件顯示名稱:Budgies Volleyball)</dd></div>
+    <div><dt>套件名稱(Package name):</dt> <dd>com.readyornot.budgiesvolleyball</dd></div>
+    <div><dt>開發人員/發布者(Developer):</dt> <dd>ReadyOrNot</dd></div>
+  </dl>
+
+  <div class="lede">
+    <p>
+      這份隱私權政策適用於 Google Play 商店資訊中,由開發人員/發布者「<strong>ReadyOrNot</strong>」
+      發布的應用程式「<strong>鸚鵡打排球</strong>」(套件名稱:<code>com.readyornot.budgiesvolleyball</code>,
+      以下稱「本 App」)。我們(ReadyOrNot)重視您的隱私,這份政策說明本 App 會蒐集哪些資料、
+      如何使用,以及您有哪些選擇。使用本 App,即表示您瞭解並同意這份政策的內容。
+    </p>
+    <p>本 App 不需要註冊帳號,也不會向您索取姓名、電話或身分證明等個人身分資料。</p>
+  </div>
+
+  <nav class="toc" aria-label="目錄">
+    <span class="toc-label">目錄</span>
+    <ol>
+      <li><a href="#collect"><span class="num">01</span>我們蒐集哪些資料</a></li>
+      <li><a href="#use"><span class="num">02</span>資料如何被使用</a></li>
+      <li><a href="#share"><span class="num">03</span>資料分享對象與第三方服務</a></li>
+      <li><a href="#ads"><span class="num">04</span>廣告</a></li>
+      <li><a href="#storage"><span class="num">05</span>本機儲存的資料</a></li>
+      <li><a href="#retention"><span class="num">06</span>資料保留與刪除</a></li>
+      <li><a href="#children"><span class="num">07</span>兒童隱私</a></li>
+      <li><a href="#choices"><span class="num">08</span>您的選擇與權利</a></li>
+      <li><a href="#changes"><span class="num">09</span>政策異動</a></li>
+      <li><a href="#contact"><span class="num">10</span>聯絡我們</a></li>
+    </ol>
+  </nav>
+
+  <section id="collect">
+    <h2><span class="num">01</span>我們蒐集哪些資料</h2>
+    <p>本 App 使用下列第三方服務,分別會蒐集對應的資料:</p>
+    <div class="data-table">
+      <table>
+        <thead>
+          <tr>
+            <th>服務</th>
+            <th>用途</th>
+            <th>蒐集的資料類型</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Firebase Analytics</td>
+            <td>瞭解玩家怎麼使用 App(例如選了哪個遊戲模式、對戰難度),協助我們改善遊戲體驗</td>
+            <td>操作事件、裝置與應用程式資訊、匿名的裝置識別碼</td>
+          </tr>
+          <tr>
+            <td>Firebase Crashlytics</td>
+            <td>接收當機與錯誤報告,協助我們修復問題</td>
+            <td>當機時的程式堆疊、裝置型號、作業系統版本、App 版本</td>
+          </tr>
+          <tr>
+            <td>Google AdMob</td>
+            <td>在 App 中投放插頁式廣告</td>
+            <td>廣告識別碼、裝置資訊、廣告互動紀錄(詳見第 4 節)</td>
+          </tr>
+          <tr>
+            <td>Cloud Firestore</td>
+            <td>「與朋友對戰」連線配對用——交換建立直接連線所需的暫時性連線資訊</td>
+            <td>房間代碼、用於建立連線的暫時性技術資訊(不含個人身分資料)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      對戰中的即時遊戲資料(角色位置、球的動作等)是透過裝置與裝置之間的直接連線
+      (WebRTC)傳輸,不會經過我們的伺服器儲存。
+    </p>
+  </section>
+
+  <section id="use">
+    <h2><span class="num">02</span>資料如何被使用</h2>
+    <ul>
+      <li>瞭解整體玩家怎麼使用本 App(哪個模式比較受歡迎、難度分布等),作為改版依據</li>
+      <li>偵測、診斷並修復當機與錯誤</li>
+      <li>投放廣告,並衡量廣告成效</li>
+      <li>讓「與朋友對戰」功能能夠正確配對、建立連線</li>
+    </ul>
+    <p>我們(ReadyOrNot)不會把這些資料用來對個別使用者建立身分檔案並對外出售。</p>
+  </section>
+
+  <section id="share">
+    <h2><span class="num">03</span>資料分享對象與第三方服務</h2>
+    <p>
+      上述資料由 Google 旗下的 Firebase(Analytics、Crashlytics、Firestore)與
+      Google AdMob 服務處理,分別受
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+        Google 隱私權政策</a>
+      規範。我們(ReadyOrNot)自己不會把您的資料出售或分享給上述服務以外的第三方。
+    </p>
+  </section>
+
+  <section id="ads">
+    <h2><span class="num">04</span>廣告 <span class="pill">Google AdMob</span></h2>
+    <p>
+      本 App 使用 Google AdMob 顯示插頁式廣告,以維持免費提供遊戲。AdMob 可能會使用廣告
+      識別碼等資訊來投放廣告、避免重複顯示同一則廣告,並衡量廣告成效。
+    </p>
+    <p>
+      您可以在裝置的系統設定中重設廣告識別碼,或選擇不接受個人化廣告,詳見
+      <a href="https://support.google.com/googleplay/answer/2963508" target="_blank" rel="noopener"
+        >Google 廣告個人化設定</a
+      >。
+    </p>
+  </section>
+
+  <section id="storage">
+    <h2><span class="num">05</span>本機儲存的資料</h2>
+    <p>
+      您在設定裡調整的項目(背景音樂開關/音量、音效音量、地板殺球範圍輔助、AI
+      難度、球款外觀等)只會儲存在您自己的裝置上,不會傳送到我們的伺服器。移除 App
+      就會一併清除這些本機設定。
+    </p>
+  </section>
+
+  <section id="retention">
+    <h2><span class="num">06</span>資料保留與刪除</h2>
+    <p>
+      Analytics 與 Crashlytics 的資料依 Google Firebase 的預設保留政策保存,超過保留期限
+      後會自動刪除。連線對戰用的房間配對資訊屬於暫時性資料,配對完成或逾時後即會失效。
+    </p>
+  </section>
+
+  <section id="children">
+    <h2><span class="num">07</span>兒童隱私</h2>
+    <p>
+      本 App 內容普遍適合闔家遊玩,但並非專門針對 13 歲以下兒童設計,也不會刻意蒐集
+      兒童的個人身分資料。如果您認為兒童在未經家長同意的情況下向我們提供了個人資料,
+      請透過下方聯絡方式與我們(ReadyOrNot)聯繫,我們會盡快處理。
+    </p>
+  </section>
+
+  <section id="choices">
+    <h2><span class="num">08</span>您的選擇與權利</h2>
+    <ul>
+      <li>可以隨時在裝置設定中清除或停用廣告識別碼</li>
+      <li>可以隨時解除安裝本 App,移除所有儲存在裝置上的本機設定</li>
+      <li>如果對於已蒐集的資料有查詢、更正或刪除的需求,歡迎透過下方聯絡方式與我們(ReadyOrNot)聯繫</li>
+    </ul>
+  </section>
+
+  <section id="changes">
+    <h2><span class="num">09</span>政策異動</h2>
+    <p>
+      如果本 App 的功能或使用的第三方服務有變動,我們會更新這份政策,並更新頁面上方的
+      生效日期。建議您不定期回來查看最新版本。
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2><span class="num">10</span>聯絡我們</h2>
+    <p>如果您對這份隱私權政策有任何問題,歡迎透過以下方式聯絡開發人員 ReadyOrNot:</p>
+    <div class="contact">levi830924@gmail.com</div>
+  </section>
+
+  <footer>
+    <p>
+      鸚鵡打排球(套件名稱:com.readyornot.budgiesvolleyball)由開發人員 <strong>ReadyOrNot</strong>
+      發布與維護 · 本頁面為本 App 在 Google Play 商店資訊中所連結的隱私權政策公開頁面。
+    </p>
+  </footer>
+</div>
+
+</body></html>
